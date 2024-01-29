@@ -1,0 +1,117 @@
+body{
+    background-image: url(Background.png);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+.footer-content {
+    margin: 0 auto;
+    display: flex;
+    padding: 159px 0 5px;
+    justify-content: space-between;
+}
+.flex-row {
+    flex-direction: row!important;
+}
+.d-flex {
+    display: flex!important;
+}
+ svg {
+    vertical-align: middle;
+    margin-right: 7px;
+    
+}
+.footer-texts {
+    flex: 1 1;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(2.5 * var(--bs-gutter-x));
+}
+
+
+.mx-auto {
+    margin-right: auto!important;
+}
+.row>* {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 3.0);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(2.5 * var(--bs-gutter-x));
+}
+h4 {
+    font-size: calc(1.275rem + .3vw);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.footer-texts div a {
+    line-height: 30px;
+    color: hsla(0,0%,100%,.46);
+    text-decoration: none;
+    font-size: 15px;
+    white-space: nowrap;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.col-12 {
+    flex: 0 0 auto;
+    font-family: "BreatheFirelii";
+}
+@font-face{
+    font-family: BreatheFirelii;
+    src: url(BreatheFireIii.ttf);
+  }
+.footerHeader {
+    font: 30px/45px;
+    letter-spacing: 0;
+    color: #fff;
+}
+.footerText {
+    font: normal normal normal 16px/25px ;
+    color: #7f8693;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.my-5 {
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.mail>div {
+    margin-right: 10px;
+}
+.d-flex {
+    display: flex!important;
+}
